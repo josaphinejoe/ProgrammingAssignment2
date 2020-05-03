@@ -1,6 +1,7 @@
 ## Put comments here that give an overall description of what your
 ## functions do
 
+
 ## Write a short comment describing this function
 
 
@@ -12,7 +13,7 @@ makeCacheMatrix <- function(x = matrix()) {
         }
         gets <- function() x
         set_Inverse <- function(inverse) invs <<- inverse
-        getInverse <- function() invs
+        get_Inverse <- function() invs
         list(sets = sets,
              gets = gets,
              set_Inverse = set_Inverse,
